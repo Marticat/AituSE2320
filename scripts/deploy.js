@@ -6,8 +6,8 @@ const RPC_URL = "https://ethereum-holesky-rpc.publicnode.com/";
 const web3 = new Web3(new Web3.providers.HttpProvider(RPC_URL));
 
 // Приватный ключ и адрес кошелька
-const privateKey = "0x353a1bc00315b4b6b7191514644d9de4256eaed462602767c87543f19c1cf3f8";
-const walletAddress = "0x9CeD9F76b87f28383DdD5aF2142d27E75c234Df3";
+const privateKey = "";
+const walletAddress = "";
 
 // ABI и bytecode контракта
 const contractPath = "./artifacts/contracts/AituSE-2320.sol/UniversityToken.json";

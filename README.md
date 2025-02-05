@@ -1,6 +1,6 @@
-# UniversityToken (AituSE2320)
+# UniversityToken (AituSE2320) - ERC-20 Token with Transaction Information Features
 
-This project creates an ERC-20 token based on Ethereum with additional features for displaying transaction information. The token was created for the AituSE2320 group, and its initial supply consists of 2000 tokens.
+UniversityToken (AituSE2320) is an Ethereum-based ERC-20 token with added functionality to provide detailed transaction information. This token was created as part of the AituSE2320 group project, with an initial supply of 2000 tokens. It showcases the use of the ERC-20 standard along with enhanced features for tracking and displaying transaction details, such as timestamps and sender/receiver addresses.
 
 ## Features
 
@@ -10,7 +10,15 @@ This project creates an ERC-20 token based on Ethereum with additional features 
   - Retrieve the timestamp of the latest transaction in a human-readable format.
   - Get the address of the sender and receiver of the latest transaction.
   - Display transaction information via blockchain events.
-  
+
+
+##Token Details
+
+Name: UniversityToken
+Symbol: UTK
+Initial Supply: 2000 UTK
+
+
 ## Functionalities
 
 1. **ERC-20 Token**:
@@ -47,3 +55,8 @@ npx hardhat run scripts/deploy.js --network holesky
 
 This will deploy your contract to the Holesky network and output the contract address.
 see 1.png 
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

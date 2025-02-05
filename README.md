@@ -12,7 +12,7 @@ UniversityToken (AituSE2320) is an Ethereum-based ERC-20 token with added functi
   - Display transaction information via blockchain events.
 
 
-##Token Details
+## Token Details
 
 Name: UniversityToken
 Symbol: UTK
